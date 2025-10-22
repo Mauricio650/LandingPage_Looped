@@ -14,10 +14,28 @@ export default defineConfig([
       tseslint.configs.recommended,
       reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
+      'plugin:prettier/recommended',
     ],
+    parser: '@typescript-eslint',
+    parserOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      ecmaFeatures: {
+        jsx: true,
+      },
+      project: './tsconfig.json',
+    },
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
+    },
+    plugins: ['react', '@typescript-eslint', 'prettier'],
+    rules: {
+      'prettier/prettier': ['error', { endOfLine: 'auto' }],
+      'react/react-in-jsx-scope': 'off',
+      'react/jsx-indent': ['error', 2],
+      'react/jsx-tag-spacing': ['error', { beforeSelfClosing: 'always' }],
+      'react/self-closing-comp': 'error',
     },
   },
 ])
