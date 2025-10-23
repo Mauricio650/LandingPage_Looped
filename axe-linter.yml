@@ -1,0 +1,21 @@
+options:
+  language: en
+  framework: react
+  showSuggestions: true
+
+rules:
+  label: true
+  color-contrast: true
+  image-alt: true
+  link-name: true
+  button-name: true
+  aria-roles: true
+  aria-valid-attr: true
+  html-has-lang: true
+  document-title: true
+  duplicate-id: true
+
+exclude:
+  - node_modules/**
+  - dist/**
+  - build/**
