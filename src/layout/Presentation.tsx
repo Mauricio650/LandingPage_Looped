@@ -1,19 +1,12 @@
 import { useState } from 'react'
 import { Header } from '../components/section_1/Header'
 import { GS, UseGS } from '../gsapConfig'
+import { Information } from '../components/section_1/Information'
 
-export function Section1() {
+export function Presentation() {
   const [showMenu, setShowMenu] = useState(false)
   const className: string =
     'relative bg-center bg-no-repeat bg-cover h-[68.5vh] lg:h-[100vh] flex flex-col justify-between items-center'
-
-  UseGS(() => {
-    GS.to('.text-gs', {
-      ease: 'power1.inOut',
-      duration: 0.5,
-      opacity: 1,
-    })
-  }, [])
 
   UseGS(() => {
     if (!showMenu) return
@@ -55,13 +48,7 @@ export function Section1() {
         {/* opacity to highlight Header against image */}
         <div className="absolute inset-0 bg-black/10"></div>
         <Header handleShowMenu={handleShowMenu}></Header>
-
-        <article className="relative z-10 flex flex-col justify-center items-center text-shadow-2xs text-shadow-black text-md font-[500] text-[#F9EBCC] pb-20">
-          <span className="text-gs opacity-0">
-            Cra. 51B & Cl. 86, Riomar, Barranquilla, Atlántico, Colombia
-          </span>
-          <span className="text-gs opacity-0">loompedInfo@Outlook.com</span>
-        </article>
+        <Information></Information>
       </section>
     </>
   )

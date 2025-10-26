@@ -1,11 +1,13 @@
 import type { JSX } from 'react'
 import './App.css'
-import { Section1 } from './layout/Section1'
+import { Presentation } from './layout/Presentation'
+import { BookingAndServices } from './layout/BookingAndServices'
 
 function App(): JSX.Element {
   return (
     <>
-      <Section1></Section1>
+      <Presentation></Presentation>
+      <BookingAndServices></BookingAndServices>
     </>
   )
 }

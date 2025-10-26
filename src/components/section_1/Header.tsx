@@ -67,7 +67,7 @@ export function Header({ handleShowMenu }: Props) {
   }
   toggleMenu()
   return (
-    <header className="relative z-12 w-full flex justify-between items-center font-semibold lg:px-20 xl:px-35 2xl:px-50 py-12 text-shadow-2xs text-shadow-black text-lg text-[#F9EBCC]">
+    <header className="relative z-12 w-full flex justify-between items-center font-semibold px-5 lg:px-20 xl:px-35 2xl:px-50 py-5 md:py-12 text-shadow-2xs text-shadow-black text-lg text-[#F9EBCC]">
       <nav className="hidden xl:block ">
         <ul className="flex justify-center items-center gap-10">
           <li className="text-gs opacity-0 translate-y-3 cursor-pointer hover:text-[#fbf8f1]">
@@ -91,7 +91,7 @@ export function Header({ handleShowMenu }: Props) {
       </button>
 
       <img
-        className="text-gs lg:w-[440px] cursor-pointer opacity-0 translate-y-20 filter drop-shadow-xs drop-shadow-black/50"
+        className="text-gs w-[130px] md:w-[200px] lg:w-[440px] cursor-pointer opacity-0 translate-y-20 filter drop-shadow-xs drop-shadow-black/50"
         src="logo/Looped.webp"
         alt="Logo of looped. Looped is the name of hair salon"
       />
