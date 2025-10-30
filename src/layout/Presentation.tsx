@@ -20,7 +20,6 @@ export function Presentation() {
 
   const handleShowMenu = () => {
     setShowMenu(p => !p)
-    document.body.style.overflow = 'hidden'
   }
 
   return (
