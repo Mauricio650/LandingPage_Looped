@@ -7,7 +7,7 @@ export function ImageBooking() {
   UseGS(() => {
     GS.fromTo(
       '.slideUpImg-gs',
-      { y: 80, opacity: 0 },
+      { y: 200, opacity: 0 },
       {
         y: 0,
         opacity: 1,
