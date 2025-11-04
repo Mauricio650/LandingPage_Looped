@@ -9,8 +9,6 @@ The site communicates the brand's values: authenticity, freedom and natural beau
 
 ## 🚀 Project description
 
-La landing fue desarrollada como parte del portafolio de desarrollo web, con el objetivo de representar visualmente la identidad de la marca **Looped**, una propuesta enfocada en productos y servicios para el cuidado del cabello rizado.
-
 This landing were developed as part of web portfolio, with the goal of represent visually the brand's identity **Looped**, a proposal focus in product and services for the care of skin and curly hair
 
 ## 🛠️ Tech Stack
