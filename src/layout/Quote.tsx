@@ -1,6 +1,6 @@
 import { Image1 } from '../components/section_3/Image1'
 import { Image2 } from '../components/section_3/Image2'
-import { Image3 } from '../components/section_3/image3'
+import { Image3 } from '../components/section_3/Image3'
 import { QuoteText } from '../components/section_3/Quote'
 
 export function Quote() {
