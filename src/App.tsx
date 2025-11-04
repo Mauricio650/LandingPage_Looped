@@ -3,6 +3,7 @@ import './App.css'
 import { Presentation } from './layout/Presentation'
 import { BookingAndServices } from './layout/BookingAndServices'
 import { Quote } from './layout/Quote'
+import { VisitUs } from './layout/VisitUs'
 
 function App(): JSX.Element {
   return (
@@ -10,6 +11,7 @@ function App(): JSX.Element {
       <Presentation></Presentation>
       <BookingAndServices></BookingAndServices>
       <Quote></Quote>
+      <VisitUs></VisitUs>
     </>
   )
 }
