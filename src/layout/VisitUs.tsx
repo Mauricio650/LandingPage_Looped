@@ -21,7 +21,7 @@ export function VisitUs() {
   }, [])
 
   return (
-    <section className="relative flex flex-col w-full bg-[#B8693D] pt-18 md:pt-30 2xl:pt-40 pb-30 px-5 md:px-25  xl:px-30  2xl:px-60">
+    <section className="relative flex flex-col w-full bg-[#B8693D] pt-18 md:pt-30 2xl:pt-40 pb-100 px-5 md:px-25  xl:px-30  2xl:px-60">
       <section className="w-full text-[#F9EBCC] flex flex-col items-start justify-center gap-8">
         <Title></Title>
       </section>
@@ -34,7 +34,7 @@ export function VisitUs() {
         <Services></Services>
       </section>
       <img
-        className="slideUpImgV-gs absolute w-xs left-0 bottom-10 rounded-br-[2.5rem] rounded-tr-[2.5rem] shadow-xl"
+        className="slideUpImgV-gs absolute w-xs left-0 bottom-60 rounded-br-[2.5rem] rounded-tr-[2.5rem] shadow-xl"
         src="section_4/Looped-portrait-06.webp"
         alt="Persona con cabello rizado corto y gafas blancas, luciendo un estilo moderno y natural"
       />
