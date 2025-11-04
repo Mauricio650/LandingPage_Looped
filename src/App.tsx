@@ -25,7 +25,7 @@ function App(): JSX.Element {
         </nav>
         <img
           className="w-[130px] md:w-[200px] lg:w-[440px] cursor-pointer"
-          src="/public/logo/Looped_Green.webp"
+          src="logo/Looped_Green.webp"
           alt="Logo of looped. Looped is the name of hair salon"
         />
       </footer>
